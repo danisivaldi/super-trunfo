@@ -1,0 +1,36 @@
+package src;
+
+/**
+ * classe que representa uma carta do baralho do super trunfo.
+ * contém:
+ * - caracter identificador da carta: 'a', 'b', 'c', ou 'd'.
+ * - número identificador da carta de 1 a 8.
+ * - booleano para indicar se a carta é ou não o Super Trunfo
+ * - 5 atributos:
+ * 		- altura (m)
+ * 		- comprimento (m)
+ * 		- peso (kg)
+ * 		- viveu há (milhões de anos)
+ * 
+ * 
+ * @author Daniel Sivaldi Feres 9912275
+ */
+
+public class Carta {
+	private char id;
+	private char num;
+	private boolean isTrunfo;
+	private double[] attributes;
+	
+	public Carta(char id, char num, double[] attributes) {
+		this.id = id;
+		this.num = num;
+		this.isTrunfo = false;
+		this.attributes = new double[5];
+		for (int i = 0; i < 5; i++) {
+			this.attributes[i] = attributes[i];
+		}
+	}
+	
+	
+}

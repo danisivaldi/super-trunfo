@@ -1,0 +1,16 @@
+package src;
+
+public class Carta {
+	private char id;
+	private char num;
+	private double[] attributes;
+	
+	public Carta(char id, char num, double[] attributes) {
+		this.id = id;
+		this.num = num;
+		this.attributes = new double[5];
+		for (int i = 0; i < 5; i++) {
+			this.attributes[i] = attributes[i];
+		}
+	}
+}
