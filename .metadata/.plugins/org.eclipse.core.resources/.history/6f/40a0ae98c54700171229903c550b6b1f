@@ -1,0 +1,12 @@
+package workspace;
+
+public class SuperTrunfo {
+
+	public static void main(String[] args) {
+		Baralho baralho = new Baralho();
+		int size = baralho.size();
+		
+		System.out.println(size);
+	}
+
+}
