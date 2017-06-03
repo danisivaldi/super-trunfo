@@ -1,0 +1,19 @@
+package workspace;
+
+import java.util.ArrayList;
+
+/**
+ * classe que representa o monte no jogo.
+ * usado para jogadas em que há empate: nesse caso, as cartas vão para o monte
+ * e aguardam a próxima rodada (quem ganhar leva o monte).
+ * 
+ * @author Daniel Sivaldi Feres 9912275
+ *
+ */
+public class Monte {
+	private ArrayList<Carta> monte;
+	
+	public Monte() {
+		monte = new ArrayList<Carta>();
+	}
+}

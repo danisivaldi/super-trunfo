@@ -61,10 +61,6 @@ public class Baralho {
 		Collections.shuffle(this.baralho);
 	}
 	
-	/**
-	 * @param index - posição da carta desejada
-	 * @return a carta na posição 'index' do baralho
-	 */
 	public Carta get(int index) {
 		return baralho.get(index);
 	}

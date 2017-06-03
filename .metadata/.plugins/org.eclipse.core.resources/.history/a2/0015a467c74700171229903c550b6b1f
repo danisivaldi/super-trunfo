@@ -54,17 +54,14 @@ public class Baralho {
 		baralho.add(new Carta('d','8', new double[] {1.1, 6.0, 400, 150}));
 	}
 	
-	/**
-	 * método que embaralha o baralho: aleatoriza as cartas no array
-	 */
 	public void shuffle() {
 		Collections.shuffle(this.baralho);
 	}
 	
-	/**
-	 * @param index - posição da carta desejada
-	 * @return a carta na posição 'index' do baralho
-	 */
+	public int size() {
+		return baralho.size();
+	}
+	
 	public Carta get(int index) {
 		return baralho.get(index);
 	}
