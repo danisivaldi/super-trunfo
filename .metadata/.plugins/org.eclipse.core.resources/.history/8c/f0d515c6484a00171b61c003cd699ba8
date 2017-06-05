@@ -2,18 +2,9 @@ package workspace;
 
 import java.io.IOException;
 
-/**
- * classe que contém apenas o método main, para rodar o jogo.
- * 
- * @author Daniel Sivaldi Feres 9912275
- */
 public class SuperTrunfo {
 
-	/**
-	 * método main do jogo.
-	 * @throws IOException
-	 */
-	public static void main() throws IOException {
+	public static void main(String[] args) throws IOException {
 		Baralho baralho = new Baralho();
 		Monte monte = new Monte();
 		Mao player1, player2;

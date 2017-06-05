@@ -9,11 +9,7 @@ import java.io.IOException;
  */
 public class SuperTrunfo {
 
-	/**
-	 * método main do jogo.
-	 * @throws IOException
-	 */
-	public static void main() throws IOException {
+	public static void main(String[] args) throws IOException {
 		Baralho baralho = new Baralho();
 		Monte monte = new Monte();
 		Mao player1, player2;

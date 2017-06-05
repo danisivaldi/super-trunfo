@@ -7,4 +7,5 @@
 <fullyQualifiedTypeName name="java.util.AbstractList"/>
 <fullyQualifiedTypeName name="java.util.AbstractQueue"/>
 <fullyQualifiedTypeName name="java.util.concurrent.ConcurrentLinkedQueue"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>
