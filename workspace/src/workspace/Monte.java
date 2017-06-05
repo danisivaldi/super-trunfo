@@ -32,13 +32,17 @@ public class Monte {
 	}
 	
 	/**
+	 * zera o monte.
+	 */
+	public void clear() {
+		monte.clear(); 
+	}
+	
+	/**
 	 * quando o jogador ganhar a rodada e tiverem cartas no monte, ele leva tudo.
 	 * @return o conteúdo do monte.
 	 */
-	public ArrayList<Carta> clear() {
-		ArrayList<Carta> cartas = monte;
-		monte.clear();
-		
-		return cartas; 
+	public ArrayList<Carta> getMonte() {
+		return monte;
 	}
 }

@@ -14,7 +14,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
  *
  */
 public class Mao {
-	Queue<Carta> mao;
+	Queue<Carta> mao = new ConcurrentLinkedQueue<Carta>();
 	
 	/**
 	 * construtor da mão, que recebe as cartas entre 'start' até 'end'.
@@ -23,10 +23,10 @@ public class Mao {
 	 * @param end - ultima carta a ser recebida pela mão.
 	 */
 	public Mao(Baralho baralho, int start, int end) {
-		Queue<Carta> mao = new ConcurrentLinkedQueue<Carta>();
-		
+
 		for (int i = 0; i <= end-start; i++)
 			mao.add(baralho.get(start+i));
+		
 	}
 	
 	/**

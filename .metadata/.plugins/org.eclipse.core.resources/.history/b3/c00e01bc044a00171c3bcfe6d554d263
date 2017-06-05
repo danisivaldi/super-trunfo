@@ -1,0 +1,18 @@
+package workspace;
+
+import java.io.IOException;
+
+public class SuperTrunfo {
+
+	public static void main(String[] args) {
+		String read = new String();
+		
+		System.out.println("Bem Vindo ao Super Trunfo! Aperte ENTER para começar a jogar");
+		try {
+			read = EntradaTeclado.leString();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

@@ -36,10 +36,10 @@ public class Baralho {
 		baralho.add(c);
 		baralho.add(new Carta('c','4', new double[] {3.0, 7.5, 1000, 113}));
 		baralho.add(new Carta('d','4', new double[] {0.2, 0.1, 0.03, 125}));
-		baralho.add(new Carta('a','6', new double[] {1.8, 3.0, 30, 227}));
-		baralho.add(new Carta('b','6', new double[] {12.0, 15.0, 8000, 228}));
-		baralho.add(new Carta('c','6', new double[] {15.0, 28.0, 50000, 156}));
-		baralho.add(new Carta('d','6', new double[] {2.5, 7.0, 450, 206}));
+		baralho.add(new Carta('a','5', new double[] {1.8, 3.0, 30, 227}));
+		baralho.add(new Carta('b','5', new double[] {12.0, 15.0, 8000, 228}));
+		baralho.add(new Carta('c','5', new double[] {15.0, 28.0, 50000, 156}));
+		baralho.add(new Carta('d','5', new double[] {2.5, 7.0, 450, 206}));
 		baralho.add(new Carta('a','6', new double[] {1.1, 1.5, 40, 146}));
 		baralho.add(new Carta('b','6', new double[] {5.8, 14, 8000, 113}));
 		baralho.add(new Carta('c','6', new double[] {8.0, 12.0, 2000, 125}));
