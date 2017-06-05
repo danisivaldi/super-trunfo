@@ -1,0 +1,11 @@
+package workspace;
+
+import java.util.Queue;
+
+public class Mao {
+	Queue<Carta> mao;
+	
+	public Mao() {
+		Queue<Carta> = new ConcurrentLinkedQueue<Carta>();  
+	}
+}

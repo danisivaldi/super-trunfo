@@ -1,0 +1,11 @@
+package workspace;
+
+import java.util.AbstractQueue;
+
+public class Mao {
+	AbstractQueue<Carta> mao;
+	
+	public Mao() {
+		AbstractQueue<Carta> mao = new Queue<Carta>(); 
+	}
+}

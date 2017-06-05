@@ -23,8 +23,8 @@ public class Monte {
 	
 	/**
 	 * adiciona ao monte as cartas que empataram na rodada.
-	 * @param c1 - carta do primeiro jogador.
-	 * @param c2 - carta do segundo jogador.
+	 * @param c1 - carta do primeiro jogador
+	 * @param c2 - carta do segundo jogador
 	 */
 	public void add(Carta c1, Carta c2) {
 		monte.add(c1);
@@ -33,7 +33,7 @@ public class Monte {
 	
 	/**
 	 * quando o jogador ganhar a rodada e tiverem cartas no monte, ele leva tudo.
-	 * @return o conteúdo do monte.
+	 * @return o conteúdo do monte
 	 */
 	public ArrayList<Carta> clear() {
 		ArrayList<Carta> cartas = monte;
