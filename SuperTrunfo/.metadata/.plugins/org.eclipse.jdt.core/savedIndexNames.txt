@@ -1,0 +1,2 @@
+INDEX VERSION 1.129+/Users/danielferes/Documents/poo/super_trunfo/SuperTrunfo/.metadata/.plugins/org.eclipse.jdt.core
+2133704995.index
